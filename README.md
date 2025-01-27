@@ -9,4 +9,5 @@ This tool is only to prepare the SD the operations do them ALWAYS AND ONLY WITH 
 
 - The First Option Is to Prepare an SD for ISFShax
 - The Second Option Is to Prepare Files to Update ISFShax
-- The fourth option is to perform an ISFShax installation from the Raspberry Pi
+- The fourth option helps to install the Fastboot for ISFShax on the WiiU
+- The Fifth option is to perform an ISFShax installation from the Raspberry Pi
