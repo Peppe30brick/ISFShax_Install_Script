@@ -35,7 +35,7 @@ curl -L https://github.com/isfshax/isfshax/releases/latest/download/superblock.i
 curl -L https://github.com/isfshax/isfshax/releases/latest/download/superblock.img.sha -o superblock.img.sha
 curl -L https://github.com/StroopwafelCFW/stroopwafel/releases/latest/download/00core.ipx -o wiiu\ios_plugins\00core.ipx
 curl -L https://github.com/isfshax/wafel_isfshax_patch/releases/latest/download/5isfshax.ipx -o wiiu\ios_plugins\5isfshax.ipx
-curl -L https://github.com/isfshax/wafel_payloader/releases/latest/download/5payldr.ipx -o wiiu\ios_plugins\5payldr.ipx
+curl -L https://github.com/StroopwafelCFW/wafel_payloader/releases/latest/download/5payldr.ipx -o wiiu\ios_plugins\5payldr.ipx
 curl -L https://github.com/StroopwafelCFW/minute_minute/releases/latest/download/fw.img -o fw.img
 curl -L https://github.com/jan-hofmeier/unencrypted_fw_img_payload/releases/latest/download/payload.elf -o wiiu\payloads\fw_img_loader\payload.elf
 curl -L https://github.com/jan-hofmeier/PayloadLoaderPayload/releases/latest/download/payload.elf -o wiiu\payload.elf
@@ -47,10 +47,9 @@ del fw_img_loader_hbl.zip PayloadFromRPX.zip
 rename root.rpx launch.rpx
 
 md hax\ios_plugins
-curl -L https://github.com/StroopwafelCFW/minute_minute/releases/latest/download/fw_fastboot.img -o hax\fw.img
 copy wiiu\ios_plugins\* hax\ios_plugins\
 
-curl -L https://github.com/isfshax/haxcopy/releases/download/v1.0/haxcopy.wuhb -o wiiu\apps\haxcopy.wuhb
+curl -L https://github.com/isfshax/haxcopy/releases/latest/download/haxcopy.wuhb -o wiiu\apps\haxcopy.wuhb
 
 cls
 color A
@@ -78,7 +77,7 @@ curl -L https://github.com/isfshax/isfshax_installer/releases/latest/download/io
 curl -L https://github.com/StroopwafelCFW/minute_minute/releases/latest/download/fw.img -o fw.img
 curl -L https://github.com/StroopwafelCFW/stroopwafel/releases/latest/download/00core.ipx -o wiiu\ios_plugins\00core.ipx
 curl -L https://github.com/isfshax/wafel_isfshax_patch/releases/latest/download/5isfshax.ipx -o wiiu\ios_plugins\5isfshax.ipx
-curl -L https://github.com/isfshax/wafel_payloader/releases/latest/download/5payldr.ipx -o wiiu\ios_plugins\5payldr.ipx
+curl -L https://github.com/StroopwafelCFW/wafel_payloader/releases/latest/download/5payldr.ipx -o wiiu\ios_plugins\5payldr.ipx
 curl -L https://github.com/StroopwafelCFW/minute_minute/releases/latest/download/fw_fastboot.img -o hax\fw.img
 
 copy wiiu\ios_plugins\* hax\ios_plugins\
@@ -118,17 +117,6 @@ echo To delete the fastboot delete that file instead
 pause 
 
 exit
-
-
-
-
-
-
-
-
-
-
-
 
 
 :Unbrick WiiU
