@@ -1,4 +1,4 @@
-<h1 align="center"> ISFShax-Downloader</h1>
+<h1 align="center"> ISFShax-Install-Script</h1>
 
 <h3 align="center">Special Thanks!</h3>
 The biggest thanks I make to SDIO author of the guide to install ISFShax and also of this script that I have modified 
