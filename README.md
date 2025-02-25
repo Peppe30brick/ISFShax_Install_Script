@@ -15,5 +15,5 @@ This tool is only to prepare the SD the operations do them ALWAYS AND ONLY WITH 
 <h2 align="center"> Credit </h2>
 
 - The icon file was taken from the official ISFShax website was not done by me https://isfsh.ax/
-ALL the files that I have scripted installs and prepares for an installation / update
+- ALL the files that I have scripted installs and prepares for an installation / update
 or any other function are developed not by me supported them for their great work
